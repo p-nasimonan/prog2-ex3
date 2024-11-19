@@ -4,11 +4,10 @@
 package prog2.ex3;
 
 public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
 
-    public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+
+    public static void main(String[] args){
+        Dice dice = new Dice();
+        System.out.println(dice.getValue());
     }
 }
